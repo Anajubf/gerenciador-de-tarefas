@@ -63,3 +63,8 @@ let tarefas01 = ['Jogar' , 'Correr'];
 
 console.log(`Tarefa combinada: ${tarefas.concat(tarefas01)}`);
 console.log(`Tarefa combinada: ${tarefas.concat(tarefas01).join(', ')}`);
+
+//Adicionando a palavra "Fazer:" no início de cada tarefa
+
+let tarefa = tarefas.map( tarefas => "Fazer: " + tarefas);
+console.log(`Inserindo a palavra Fazer: ${tarefa}`);
