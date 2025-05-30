@@ -39,3 +39,7 @@ console.log(`Antes o shift: ${tarefas}`);
 let tarefaRemovida01 = tarefas.shift();
 console.log(`Depois do push: ${tarefas}`);
 console.log(`Tarefa removida: ${tarefaRemovida01}`);
+
+//Verificando se uma tarefa existe
+
+console.log(`A tarefa inclui Ir à academia? ${tarefas.includes("Ir à academia")}`);
