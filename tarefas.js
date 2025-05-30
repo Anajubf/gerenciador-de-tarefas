@@ -11,7 +11,17 @@ let tarefas = [
   "Organizar o computador",
 ];
 
+//Adicionando ao menos 2 novas tarefas à lista de tarefas
 console.log(`Antes do push ${tarefas}`);
-tarefas.push(`Estudar para a prova, Ler um livro.`);
+tarefas.push(`Estudar para a prova` , `Ler um livro.`);
 
 console.log(`Depois do push ${tarefas}`);
+
+//Removendo a última tarefa da lista
+console.log(`Antes do pop ${tarefas}`);
+
+let tarefaRemovida = tarefas.pop();
+
+console.log(`Depois do pop ${tarefas}`);
+console.log(`Tarefa removida: ${tarefaRemovida}`);
+
