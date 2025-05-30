@@ -53,7 +53,13 @@ console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
 //Removendo a tarefa do índice 3 e substituindo por uma nova tarefa
 console.log(`Antes do splice: ${tarefas.join(', ')}`);
 
-let elementoRemovido = tarefas.splice(4, 1);
+let elementoRemovido = tarefas.splice(3, 1, "Beber água");
 
-console.log(`Depois do splice: ${tarefas.join(', ')}`);
-console.log(`Elementos removidos: ${elementoRemovido.join(', ')}`);
+console.log(`Elemento removido: ${elementoRemovido}`);
+console.table(tarefas);
+
+//Criando uma nova lista com tarefas adicionais e juntando com a lista original
+let tarefas01 = ['Jogar' , 'Correr'];
+
+console.log(`Tarefa combinada: ${tarefas.concat(tarefas01)}`);
+console.log(`Tarefa combinada: ${tarefas.concat(tarefas01).join(', ')}`);
