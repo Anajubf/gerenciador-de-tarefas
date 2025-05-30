@@ -32,3 +32,10 @@ tarefas.unshift(`Arrumar a casa`);
 
 console.log(`Depois do unshift: ${tarefas}`);
 
+//Removendo a primeira tarefa da lista
+
+console.log(`Antes o shift: ${tarefas}`);
+
+let tarefaRemovida01 = tarefas.shift();
+console.log(`Depois do push: ${tarefas}`);
+console.log(`Tarefa removida: ${tarefaRemovida01}`);
