@@ -46,3 +46,6 @@ console.log(`A tarefa inclui Ir à academia? ${tarefas.includes("Ir à academia"
 
 //Transformando a lista de tarefas em uma string separada por vírgulas
 console.log(`Tarefa como string: ${tarefas.join(', ')}`);
+
+// Transformando a lista de tarefas em uma string separada por vírgulas
+console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
