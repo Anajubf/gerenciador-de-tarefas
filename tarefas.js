@@ -1,14 +1,14 @@
 let tarefas = [
-  "Estudar JavaScript",
-  "Fazer exercícios de matemática",
-  "Lavar a louça",
-  "Comprar mercado",
-  "Ir à academia",
-  "Ler um livro",
-  "Fazer revisão para o teste",
-  "Limpar o quarto",
-  "Estudar para concurso",
-  "Organizar o computador",
+  'Estudar JavaScript',
+  'Fazer exercícios de matemática',
+  'Lavar a louça',
+  'Comprar mercado',
+  'Ir à academia',
+  'Ler um livro',
+  'Fazer revisão para o teste',
+  'Limpar o quarto',
+  'Estudar para concurso',
+  'Organizar o computador',
 ];
 
 //Adicionando ao menos 2 novas tarefas à lista de tarefas
@@ -43,3 +43,6 @@ console.log(`Tarefa removida: ${tarefaRemovida01}`);
 //Verificando se uma tarefa existe
 
 console.log(`A tarefa inclui Ir à academia? ${tarefas.includes("Ir à academia")}`);
+
+//Transformando a lista de tarefas em uma string separada por vírgulas
+console.log(`Tarefa como string: ${tarefas.join(', ')}`);
