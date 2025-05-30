@@ -49,3 +49,11 @@ console.log(`Tarefa como string: ${tarefas.join(', ')}`);
 
 // Transformando a lista de tarefas em uma string separada por vírgulas
 console.log(`Parte da tarefa (índices 2 a 4): ${tarefas.slice(2, 5)}`);
+
+//Removendo a tarefa do índice 3 e substituindo por uma nova tarefa
+console.log(`Antes do splice: ${tarefas.join(', ')}`);
+
+let elementoRemovido = tarefas.splice(4, 1);
+
+console.log(`Depois do splice: ${tarefas.join(', ')}`);
+console.log(`Elementos removidos: ${elementoRemovido.join(', ')}`);
