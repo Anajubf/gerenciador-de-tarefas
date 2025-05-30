@@ -25,3 +25,10 @@ let tarefaRemovida = tarefas.pop();
 console.log(`Depois do pop ${tarefas}`);
 console.log(`Tarefa removida: ${tarefaRemovida}`);
 
+//Adicionando uma tarefa no início da lista
+console.log(`Antes do unshift: ${tarefas}`);
+
+tarefas.unshift(`Arrumar a casa`);
+
+console.log(`Depois do unshift: ${tarefas}`);
+
