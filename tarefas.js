@@ -76,3 +76,7 @@ console.log("Tarefas filtradas (Tarefas com mais de 15 caracteres):", tarefasFil
 //Organizando as tarefas em ordem alfabética
 let tarefasOrdenada = tarefas.sort();
 console.log("Tarefas ordenadas:", tarefasOrdenada);
+
+//Invertendo a ordem das tarefas
+let tarefasInvertida = tarefas.reverse();
+console.log("Tarefas invertidas:", tarefasInvertida);
